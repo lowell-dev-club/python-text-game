@@ -1,13 +1,12 @@
 # Python Text-Base Game
 
-using an online [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) 
-#### [repl.it](https://repl.it)
+using an online [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) **[REPL.it](https://repl.it)**
 
 ## Python :snake:
 
 #### Python info:
 
-Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991. It is used for Machine Learning, Websites, Data Processing, and so much more! Python is an interperted language running directly from code written and doesn't require any pre compiling allowing for simple coding. Python has easy to remember and clean looking syntax and code and is great for beginers and experts alike with its simple and advanced capabilities.
+Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991. It is used for Machine Learning, Websites, Data Processing, and so much more! Python is an interperted language running directly from code written and doesn't require any pre compiling allowing for simple coding. Python has easy to remember and clean looking syntax and code. Python code is great for beginers and experts alike with its simple and advanced capabilities.
 
 ## Repl.it
 
@@ -15,3 +14,66 @@ Create a new repl and choose python. Make sure its specified as Python or Python
 
 ![repl it image](https://github.com/lowell-dev-club/python-text-game/blob/master/replit.png?raw=true)
 
+## Print Statment
+
+The print statement is used to output messages.  
+Code:
+```python
+print('Hello World!')
+print('You enter a dark room.\nThe door creaks open.')
+```
+Output:  
+> Hello World!  
+> You enter a dark room.  
+> The door creaks open.
+
+The print statement has a format tool to allow for number and text(strings to be printed together).  
+Code:
+```python
+print(f'Hello World! {5}')
+```
+Output:  
+> Hello World! 5
+
+## Variables
+
+Variables hold data. Data can be numbers(integers, decimals) and text(strings) and much more!  
+Code:
+```python
+variable = 404
+anotherVariable = 'Hello There!'
+print(f'{anotherVariable} {variable}.')
+```
+Output:  
+> Hello There! 404.
+
+**Make sure to come up with unique variable names**  
+
+## User input
+
+User input is a way to get input from users for your text game.  
+Code:
+```python
+variable = input('Whats your age? ')
+print(f'Your age is {variable}')
+```
+Output:  
+> Whats your age? 16  
+> 16
+
+## If statments
+
+Use if statments to check user input to change things or use user input for your story. You use if else for is something is true do blah else do blahblah. You can also add elif for if you want to check for extra things.  
+Code:
+```python
+var = input('Which way do you walk? ')
+if var == 'right':
+    print('You walk to the right.')
+elif var == 'left':
+    print('You walk to the left.')
+else:
+    print('You walk through the door.')
+```
+Output:
+> Which way do you walk? left  
+> You walk to the left.
