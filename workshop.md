@@ -6,7 +6,7 @@ using an online [IDE](https://en.wikipedia.org/wiki/Integrated_development_envir
 
 #### Python info:
 
-Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991. It is used for Machine Learning, Websites, Data Processing, and so much more! Python is an interperted language running directly from code written and doesn't require any pre compiling allowing for simple coding. Python has easy to remember and clean looking syntax and code. Python code is great for beginers and experts alike with its simple and advanced capabilities.
+Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991. It is used for Machine Learning, Websites, Data Processing, and so much more! Python is an interperted language running directly from code written and doesn't require any pre compiling allowing for simple coding. Python has easy to remember and clean looking syntax and code. Python code is great for beginners and experts alike with its simple and advanced capabilities.
 
 ## Repl.it
 
@@ -54,17 +54,16 @@ Output:
 User input is a way to get input from users for your text game.  
 Code:
 ```python
-variable = input('Whats your age? ')
+variable = input('What\'s your age? ')
 print(f'Your age is {variable}')
 ```
 Output:  
-> Whats your age? 16  
+> What's your age? 16  
 > 16
 
 ## If statments
 
-Use if statments to check user input to change things or use user input for your story. You use if else for is something is true do blah else do blahblah. You can also add elif for if you want to check for extra things.  
-Code:
+Use if statments to check if something is true, for example, 5 == 5. Use this in conjunction with user input to determine what to do with user input. make the story go right, left, up all based off what the user inputs. You can use elif(else if) and else statments to run different code if the first if statment isn't true for example, 5 == 6 is False.
 ```python
 var = input('Which way do you walk? ')
 if var == 'right':
