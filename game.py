@@ -1,5 +1,6 @@
 '''
 Text Based game created by Rafael Cenzano
+https://repl.it/@RAFAELCENZANO/text-based-game
 '''
 
 print('It was a dark and stormy night.')
@@ -12,7 +13,7 @@ if whereToGo.lower() == 'yes':
     print('You open your door.')
     randNum = random.randint(1,2)
     if randNum == 1:
-        print('You are killed by Boogeyman.')
+        print('You are killed by the Boogeyman.')
     else:
         print('John Wick kills a Boogeyman right in front of you saving you from death.')
 else:
