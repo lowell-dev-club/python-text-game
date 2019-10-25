@@ -20,7 +20,10 @@ The print statement is used to output messages.
 Code:
 ```python
 print('Hello World!')
-print('You enter a dark room.\nThe door creaks open.')
+print('''
+You enter a dark room.
+The door creaks open.
+      ''')
 ```
 Output:  
 > Hello World!  
@@ -89,7 +92,7 @@ print('You are inside your house and you hear a knock on your door.')
 
 whereToGo = input('Do you answer the knock? ')
 
-# use .lower() next to a variable to make any text lowercase. ('HELLO').lower() = 'hello'
+''' use .lower() next to a variable to make any text lowercase. ('HELLO').lower() = 'hello' '''
 if whereToGo.lower() == 'yes':
     print('You open your door.')
     randNum = random.randint(1,2)
