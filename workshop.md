@@ -2,7 +2,7 @@
 
 using an online [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) **[REPL.it](https://repl.it)**
 
-## Python :snake:
+## Python
 
 #### Python info:
 
