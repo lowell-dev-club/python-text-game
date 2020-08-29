@@ -62,7 +62,7 @@ print(f'Your age is {variable}')
 ```
 Output:  
 > What's your age? 16  
-> 16
+> Your age is 16
 
 ## If statments
 
